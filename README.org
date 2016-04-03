@@ -1,0 +1,14 @@
+* What is it
+It is a program that help you translate regular expression into NFA.
+
+* Request
+- java
+- [[http://plantuml.com][plantuml]](already in bin directory)
+
+* Usage
+Use '-j' argument to specify the path of plantuml.jar, default is 'bin/plantuml.jar',
+use '-o' argument to specify the name of output file, default is 'uml.out'.
+
+#+BEGIN_SRC shell
+./gen.sh [-j jarpath] [-o outputname] regexp
+#+END_SRC
