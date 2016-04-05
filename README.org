@@ -1,8 +1,8 @@
 * What is it
-It is a program that help you translate regular expression into NFA.
+It is a program that help you translate regular expression into NFA,
+based on  Thompson's algorithm, and finally generate a pictrue.
 
 * Request
-- java
 - [[http://plantuml.com][plantuml]](already in bin directory)
 
 * Usage
